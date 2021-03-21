@@ -1,0 +1,19 @@
+
+svg #freepik_stories-headphone:not(.animated) .animable {
+    opacity: 0;
+}
+
+svg #freepik_stories-headphone.animated #freepik--musical-notes--inject-110 {
+    animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) zoomIn,1.5s Infinite  linear floating;animation-delay: 0s,2s;
+}  
+
+@keyframes zoomIn {                
+    0% {                    opacity: 0;                    transform: scale(0.5);                }                
+    100% {                    opacity: 1;                    transform: scale(1);                }            
+}                    
+
+@keyframes floating {
+    0% {                    opacity: 1;                    transform: translateY(0px);                }
+    50% {                    transform: translateY(-10px);                }                
+    100% {                    opacity: 1;                    transform: translateY(0px);                }            
+}   
