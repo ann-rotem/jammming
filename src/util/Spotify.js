@@ -1,5 +1,5 @@
 
-const clientId = 'dbf481aaccc74938bcf6f96b22b3210f'; // remove from public directory
+const clientId = '###########'; // removed from public directory
 const redirectUri = 'http://localhost:3000/callback/';
 
 let accessToken;
